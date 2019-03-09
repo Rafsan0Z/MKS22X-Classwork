@@ -5,7 +5,7 @@ public class Classwork0309{
     int pivot = 3;
     exchange(start,pivot,data);
     int pivotInt = data[start];
-    int reference = start;
+    pivot = start;
     start++;
     while(end >= start){
       if(data[start] > pivotInt){
@@ -13,9 +13,9 @@ public class Classwork0309{
         end--;
       }
       else if(data[start] < pivotInt){
-        exchange(reference,start,data);
+        exchange(pivot,start,data);
         start++;
-        reference++;
+        pivot++;
       }
       else if(data[start] == pivotInt){
         start++;
