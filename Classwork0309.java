@@ -21,4 +21,8 @@ public class Classwork0309{
   return result + "]";
 }
 
+public static void main(String[] args){
+  
+}
+
 }
