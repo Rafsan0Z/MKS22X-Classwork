@@ -1,7 +1,8 @@
 public class Classwork0309{
 
   public int partition(int start, int end, int[] data){
-
+    double random = Math.random()*(end-start);
+    int pivot = (int)random + start;
   }
 
   public void exchange(int num1, int num2, int[] data){ // these are indices
@@ -22,7 +23,7 @@ public class Classwork0309{
 }
 
 public static void main(String[] args){
-  
+
 }
 
 }
