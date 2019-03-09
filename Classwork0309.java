@@ -2,7 +2,7 @@ public class Classwork0309{
 
   public static int partition(int start, int end, int[] data){
     double random = Math.random()*(end-start);
-    int pivot = 3;
+    int pivot = (int)random + start;
     exchange(start,pivot,data);
     int pivotInt = data[start];
     pivot = start;
