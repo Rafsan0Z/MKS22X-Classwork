@@ -1,6 +1,6 @@
 public class Classwork0309{
 
-  public int partition(int start, int end, int[] data){
+  public static int partition(int start, int end, int[] data){
     double random = Math.random()*(end-start);
     int pivot = 3;
     exchange(start,pivot,data);
@@ -24,8 +24,8 @@ public class Classwork0309{
     return end;
   }
 
-  public void exchange(int num1, int num2, int[] data){ // these are indices
-    int temp = data[num1]
+  public static void exchange(int num1, int num2, int[] data){ // these are indices
+    int temp = data[num1];
     data[num1] = data[num2];
     data[num2] = temp;
   }
@@ -46,7 +46,7 @@ public static void main(String[] args){
   int[] data = new int[] {8,6,7,5,3,0,9};
   int result = partition(0,6,data);
   System.out.println(result);
-  System.out.prinltn(printArray(data));
+  System.out.println(printArray(data));
 
 }
 
