@@ -44,7 +44,9 @@ public class Classwork0309{
 public static void main(String[] args){
 
   int[] data = new int[] {8,6,7,5,3,0,9};
-  int result =
+  int result = partition(0,6,data);
+  System.out.println(result);
+  System.out.prinltn(printArray(data));
 
 }
 
