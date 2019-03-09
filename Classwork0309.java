@@ -10,4 +10,15 @@ public class Classwork0309{
     data[num2] = temp;
   }
 
+  public static String printArray(int[] ary) {
+ String result = "[";
+ for (int i = 0; i < ary.length ; i++) {
+  result += " " + ary[i];
+  if (i != ary.length - 1) {
+    result += ",";
+  }
+}
+  return result + "]";
+}
+
 }
