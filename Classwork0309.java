@@ -21,7 +21,7 @@ public class Classwork0309{
         start++;
       }
     }
-    return end;
+    return pivot;
   }
 
   public static void exchange(int num1, int num2, int[] data){ // these are indices
