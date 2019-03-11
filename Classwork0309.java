@@ -1,4 +1,4 @@
-public class Classwork0309{
+public class Quick{
 
   public static int partition(int[]data, int start, int end){
     double random = Math.random()*(end-start);
